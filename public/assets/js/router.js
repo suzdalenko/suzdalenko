@@ -6,21 +6,19 @@ const route = (event) => {
 }
 
 const routes = {
-    '/'      : '/pages/index.html',
-    '/about' : '/pages/about.html',
-    '/lorem' : '/pages/lorem.html'
+    '/'         : '/pages/index.html',
+    '/about'    : '/pages/about.html',
+    '/services' : '/pages/services.html'
 }
 
 const handleLocation = async () => {
     let path = window.location.pathname;
     let route = routes[path] || routes[404];
     console.log('path='+path)
-    if(path == '/')  {
-        document.getElementById('main-page').innerHTML = HomePage();
-    } else {
-        let html = await fetch(route).then(r => r.text());
-        document.getElementById('main-page').innerHTML = html;
-    }
+    
+    let html = await fetch(route).then(r => r.text());
+    document.getElementById('main-page').innerHTML = html;
+    
 }
 
 window.onpopstate = handleLocation;
