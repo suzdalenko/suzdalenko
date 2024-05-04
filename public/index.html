@@ -15,7 +15,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="preconnect" href="https://fonts.gstatic.com/">
-  <link href="/assets/css2.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/ionicons.min.css">
   <link rel="stylesheet" href="/assets/css/animate.css">
@@ -23,29 +24,33 @@
   <link rel="stylesheet" href="/assets/css/tiny-slider.css">
   <link rel="stylesheet" href="/assets/css/glightbox.min.css">
   <link rel="stylesheet" href="/assets/css/aos.css">
+  <link rel="stylesheet" href="/assets/css/css2.css">
   <link rel="stylesheet" href="/assets/css/style.css">
+  
 
-  <title>Alexey Suzdalenko - Desarrollo Web/Android</title>
-  <meta name="description" content="Alexey Suzdalenko - Programador - ">
+  <title>UI/UX DISEÑADOR &amp; PROGRAMADOR ALEXEY SUZDALENKO</title>
+  <meta name="description" content="Programador - Alexey Suzdalenko - Desarrollo Web/Android">
 </head>
 
 <body>
   <nav class="navbar ftco-navbar-light">
     <div class="container-xl">
       <a class="navbar-brand align-items-center" href="/"><span class="">Suzdalenko</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+     
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" id="hamburgerButton"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class=""></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" onclick="route(event)" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/about">About</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="experience.html">Experiences</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="work.html">Works</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active" onclick="route(event)" href="/">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Sobre-Mi">Sobre Mí</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Experiencias">Experiencias</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" onclick="route(event)" href="/Contacto">Contacto</a></li>
         </ul>
       </div>
     </div>
@@ -54,12 +59,38 @@
   
   <div id="main-page"></div>
 
-  <script src="/assets/bootstrap.bundle.min.js"></script>
-  <!-- <script src="/assets/tiny-slider.js"></script> -->
+  <script src="/assets/js/assets/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/glightbox.min.js"></script>
-  <script src="/assets/js/aos.js"></script>
-  <script src="/assets/js/main.js"></script>
   <script src="/assets/js/router.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XZ23NT4WE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5XZ23NT4WE');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E015ZHC5D1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E015ZHC5D1');
+  </script>
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(97200992, "init", {
+       clickmap:true,
+       trackLinks:true,
+       accurateTrackBounce:true,
+       webvisor:true,
+       ecommerce:"dataLayer"
+    });
+</script>
 </body>
 
 </html>

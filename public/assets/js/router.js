@@ -3,12 +3,25 @@ const route = (event) => {
     event.preventDefault();
     window.history.pushState({}, "", event.target.href);
     handleLocation();
+
+    let navbarSupportedContent = document.getElementById('navbarSupportedContent');
+    if(navbarSupportedContent){
+        navbarSupportedContent.classList.remove('show');
+    }
+    let hamburgerButton = document.getElementById('hamburgerButton');
+    if(hamburgerButton){
+        hamburgerButton.setAttribute("aria-expanded", "false");
+    }
 }
 
 const routes = {
-    '/'         : '/pages/index.html',
-    '/about'    : '/pages/about.html',
-    '/services' : '/pages/services.html'
+    '/'             : '/pages/index.html',
+    '/Sobre-Mi'     : '/pages/sobre-mi.html',
+    '/Servicios'    : '/pages/servicios.html',
+    '/Experiencias' : '/pages/experiencias.html',
+    '/Proyectos'    : '/pages/proyectos.html',
+    '/Blog'         : '/pages/blog.html',
+    '/Contacto'     : '/pages/contacto.html'
 }
 
 const handleLocation = async () => {
@@ -23,10 +36,5 @@ const handleLocation = async () => {
 
 window.onpopstate = handleLocation;
 window.route = route;
-
 handleLocation();
 
-
-function HomePage(){
-    return `<h1>HomePage</h1>`;
-}
