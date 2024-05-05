@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: Disallow: /*.php
+Host: suzdalenko-dev.web.app
+Sitemap: https://suzdalenko-dev.web.app/sitemap.xml
+Crawl-delay: 20
