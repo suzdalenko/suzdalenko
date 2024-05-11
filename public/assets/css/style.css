@@ -2561,3 +2561,16 @@ textarea.form-control {
         color: #ccc; }
     .categories li.active a, .categories li:hover a {
       color: #000000; }
+
+
+.titleLink{
+  color: grey;
+  background-color: white;
+  padding: 4px;
+  border-radius: 3px;
+  margin-top: 3px;
+  display: inline-block;
+}
+.titleLink:hover{
+  background-color: rgb(236, 236, 236);
+}

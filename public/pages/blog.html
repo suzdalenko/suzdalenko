@@ -1,121 +1,30 @@
 <section class="hero-wrap hero-wrap-2">
     <div class="overlay"></div>
     <div class="container">
-    <div class="row no-gutters slider-text align-items-end justify-content-center">
-    <div class="col-md-9 pt-5 text-center">
-    <p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
-    <h1 class="mb-0 bread">Blog Posts</h1>
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+            <div class="col-md-9 pt-5 text-center">
+                <p class="breadcrumbs">
+                    <span class="me-2"><a onclick="route(event)" href="/">Home <i class="fa fa-chevron-right"></i></a></span>
+                    <span><a href="/Blog">Blog <i class="fa fa-chevron-right"></i></a></span>
+                </p>
+                <h1 class="mb-0 bread">Entradas de blog</h1>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    </section>
-    <section class="ftco-section bg-light">
+</section>
+<section class="ftco-section bg-light">
     <div class="container-xl">
-    <div class="row">
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_1.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        <div class="row" id="listBlogEntries"></div>
     </div>
+</section>
+<footer class="ftco-footer">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="mb-0 copyright">Copyright © Todos los derechos publicos <i class="fa fa-heart color-danger" aria-hidden="true"></i> by 
+                    <a href="/" target="_blank">Suzdalenko</a>
+                </p>
+            </div>
+        </div>
     </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_2.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_3.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a mb-3></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_4.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a mb-3></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_5.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_6.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_7.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a mb-3></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 col-lg-3 d-flex">
-    <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_8.jpg');">
-    </a>
-    <div class="text">
-    <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
-    <h3 class="heading mb-3"><a href="#">The Newest and Updated Bootstrap 5 is Here</a mb-3></h3>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="row mt-5">
-    <div class="col text-center">
-    <div class="block-27">
-    <ul>
-    <li><a href="#">&lt;</a></li>
-    <li class="active"><span>1</span></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#">&gt;</a></li>
-    </ul>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <footer class="ftco-footer">
+</footer>
