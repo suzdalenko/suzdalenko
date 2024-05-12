@@ -70,9 +70,9 @@ const handleLocation = async () => {
         case 5:  blogFunctions();     break;
         case 11: blogItemFunctions(); break;
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 window.onpopstate = handleLocation;
 window.route = route;
 handleLocation();
-

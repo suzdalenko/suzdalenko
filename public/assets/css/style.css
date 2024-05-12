@@ -1492,7 +1492,7 @@ textarea.form-control {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #F8F8F8;
+  background: #FFFFFF;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -1666,7 +1666,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     @media (max-width: 767.98px) {
       .hero-wrap .overlay {
         opacity: 0; } }
-        
+
   .hero-wrap.hero-wrap-2 {
     min-height: auto;
     height: 200px; }
@@ -1760,7 +1760,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
       font-size: 40px; }
 
 .bg-light {
-  background: #F8F8F8 !important; }
+  background: #FFFFFF !important; }
 
 .btn {
   padding: 9px 12px;
@@ -1904,7 +1904,7 @@ textarea.form-control {
     list-style: none;
     padding: 10px 0; }
     .block-7 .pricing-text li:nth-child(even) {
-      background: #F8F8F8; }
+      background: #FFFFFF; }
     .block-7 .pricing-text li span.fa {
       color: #0092FF; }
   .block-7 .btn-primary {
