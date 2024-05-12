@@ -40,4 +40,9 @@
         <priority>1</priority>
         <changefreq>daily</changefreq>
     </url>
+    <url>
+        <loc>https://suzdalenko-dev.web.app/Pages/Chess</loc>
+        <priority>1</priority>
+        <changefreq>daily</changefreq>
+    </url>
 </urlset>

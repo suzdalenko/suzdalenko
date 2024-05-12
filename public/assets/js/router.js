@@ -52,14 +52,14 @@ const handleLocation = async () => {
     let route = '/pages/index.html';
     let index = 0;
     switch(path){
-        case '':             case '/':             route = '/pages/index.html';        index = 0; break;
-        case '/Sobre-Mi':    case '/Sobre-Mi/':    route = '/pages/sobre-mi.html';     index = 1; break;
-        case '/Servicios':   case '/Servicios/':   route = '/pages/servicios.html';    index = 2; break;
-        case '/Experiencia': case '/Experiencia/': route = '/pages/experiencia.html';  index = 3; break;
-        case '/Proyectos':   case '/Proyectos/':   route = '/pages/proyectos.html';    index = 4; break;
-        case '/Blog':        case '/Blog/':        route = '/pages/blog.html';         index = 5; break;
-        case '/Contacto':    case '/Contacto/':    route = '/pages/contacto.html';     index = 6; break;
-        default:                                   route = '/pages/blog-content.html'; index = 11;
+        case '':             case '/':             route = '/Pages/index.html';        index = 0; break;
+        case '/Sobre-Mi':    case '/Sobre-Mi/':    route = '/Pages/sobre-mi.html';     index = 1; break;
+        case '/Servicios':   case '/Servicios/':   route = '/Pages/servicios.html';    index = 2; break;
+        case '/Experiencia': case '/Experiencia/': route = '/Pages/experiencia.html';  index = 3; break;
+        case '/Proyectos':   case '/Proyectos/':   route = '/Pages/proyectos.html';    index = 4; break;
+        case '/Blog':        case '/Blog/':        route = '/Pages/blog.html';         index = 5; break;
+        case '/Contacto':    case '/Contacto/':    route = '/Pages/contacto.html';     index = 6; break;
+        default:                                   route = '/Pages/blog-content.html'; index = 11;
     }
     console.log('path='+path);
     let html = await fetch(route).then(r => r.text());
