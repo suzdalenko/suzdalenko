@@ -2568,7 +2568,7 @@ textarea.form-control {
 
 .titleLink{
   color: grey;
-  background-color: white;
+  background-color: hsl(195, 68%, 89%);
   padding: 4px;
   border-radius: 3px;
   margin-top: 3px;
