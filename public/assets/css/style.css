@@ -2096,7 +2096,7 @@ textarea.form-control {
   position: relative;
   z-index: 0;
   margin-bottom: 20px;
-  background: #fff; }
+  background: #e8f2ff; }
   .section-counter .counter-wrap:after {
     position: absolute;
     top: 0;
@@ -2576,4 +2576,7 @@ textarea.form-control {
 }
 .titleLink:hover{
   background-color: rgb(236, 236, 236);
+}
+p{
+  color: black;
 }
