@@ -1492,7 +1492,7 @@ textarea.form-control {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #f8f8f8;
+  background: #F8F8F8;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
@@ -1502,11 +1502,11 @@ a, button {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #d5c455;
+  color: #0092FF;
   text-decoration: none; }
   a:hover, a:focus, button:hover, button:focus {
     text-decoration: none;
-    color: #d5c455;
+    color: #0092FF;
     outline: none !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
@@ -1573,7 +1573,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
         padding-top: 0;
         color: #fff; } }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
-      color: #d5c455 !important; }
+      color: #0092FF !important; }
   @media (max-width: 767.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #fff;
@@ -1593,7 +1593,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
         color: #fff !important; } }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
-      color: #d5c455;
+      color: #0092FF;
       outline: none !important;
       -webkit-box-shadow: none;
       box-shadow: none; }
@@ -1661,19 +1661,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     bottom: 0;
     width: 50%;
     opacity: 1;
-    background: #d5c455;
+    background: #0092FF;
     z-index: -1; }
     @media (max-width: 767.98px) {
       .hero-wrap .overlay {
         opacity: 0; } }
+        
   .hero-wrap.hero-wrap-2 {
     min-height: auto;
-    height: 300px; }
+    height: 200px; }
     .hero-wrap.hero-wrap-2 .overlay {
       opacity: 0; }
-    .hero-wrap.hero-wrap-2 .slider-text {
+    
+      .hero-wrap.hero-wrap-2 .slider-text {
       min-height: auto;
-      height: 300px; }
+      height: 200px; }
+
   .hero-wrap .slider-text {
     height: 100vh;
     min-height: 100%;
@@ -1691,7 +1694,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     .hero-wrap .slider-text .subheading {
       text-transform: uppercase;
       font-weight: 700;
-      color: #d5c455;
+      color: #0092FF;
       font-size: 16px;
       letter-spacing: 1px; }
       @media (max-width: 575.98px) {
@@ -1748,16 +1751,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
         .hero-wrap .slider-text .breadcrumbs span a {
           color: rgba(0, 0, 0, 0.4); }
           .hero-wrap .slider-text .breadcrumbs span a:hover, .hero-wrap .slider-text .breadcrumbs span a:focus {
-            color: #d5c455; }
+            color: #0092FF; }
             .hero-wrap .slider-text .breadcrumbs span a:hover i, .hero-wrap .slider-text .breadcrumbs span a:focus i {
-              color: #d5c455; }
+              color: #0092FF; }
     .hero-wrap .slider-text .bread {
       font-weight: 600;
       color: #222222;
       font-size: 40px; }
 
 .bg-light {
-  background: #f8f8f8 !important; }
+  background: #F8F8F8 !important; }
 
 .btn {
   padding: 9px 12px;
@@ -1777,15 +1780,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     line-height: 1;
     font-size: 16px; }
   .btn.btn-primary {
-    background: #d5c455 !important;
-    border: 1px solid #d5c455 !important;
+    background: #0092FF !important;
+    border: 1px solid #0092FF !important;
     color: #fff !important; }
     .btn.btn-primary span {
       color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #d5c455;
+      border: 1px solid #0092FF;
       background: transparent;
-      color: #d5c455; }
+      color: #0092FF; }
   .btn.btn-white {
     background: #fff !important;
     border: 1px solid #fff !important;
@@ -1817,7 +1820,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     /* Firefox 18- */
     color: rgba(0, 0, 0, 0.3) !important; }
   .form-control:focus, .form-control:active {
-    border-color: #d5c455 !important; }
+    border-color: #0092FF !important; }
 
 textarea.form-control {
   height: inherit !important; }
@@ -1841,7 +1844,7 @@ textarea.form-control {
     .services .icon span {
       font-size: 70px;
       line-height: 1.2;
-      color: #d5c455; }
+      color: #0092FF; }
   .services .text {
     width: 100%; }
     .services .text h2, .services .text .h2 {
@@ -1849,7 +1852,7 @@ textarea.form-control {
       font-weight: 600;
       margin-bottom: 15px; }
   .services:hover {
-    background: #d5c455;
+    background: #0092FF;
     -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
     box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18); }
@@ -1888,7 +1891,7 @@ textarea.form-control {
     .block-7 .price .number {
       font-size: 50px;
       font-weight: 400;
-      color: #d5c455; }
+      color: #0092FF; }
   .block-7 .excerpt {
     margin-bottom: 20px;
     color: #222222;
@@ -1901,9 +1904,9 @@ textarea.form-control {
     list-style: none;
     padding: 10px 0; }
     .block-7 .pricing-text li:nth-child(even) {
-      background: #f8f8f8; }
+      background: #F8F8F8; }
     .block-7 .pricing-text li span.fa {
-      color: #d5c455; }
+      color: #0092FF; }
   .block-7 .btn-primary {
     color: #fff;
     border-radius: 2px;
@@ -1914,7 +1917,7 @@ textarea.form-control {
     width: 60%;
     margin: 0 auto; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
-      background: #d5c455 !important;
+      background: #0092FF !important;
       color: #fff; }
   .block-7:hover, .block-7:focus {
     -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
@@ -1972,7 +1975,7 @@ textarea.form-control {
   font-size: 13px;
   display: block;
   margin-bottom: 5px;
-  color: #d5c455;
+  color: #0092FF;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px; }
@@ -2044,7 +2047,7 @@ textarea.form-control {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #d5c455; }
+    background: #0092FF; }
     .testimony-wrap .icon span {
       color: #fff; }
   .testimony-wrap .tx {
@@ -2062,7 +2065,7 @@ textarea.form-control {
   .testimony-wrap .position {
     font-size: 13px;
     text-transform: uppercase;
-    color: #d5c455;
+    color: #0092FF;
     font-weight: 600; }
 
 .ftco-about-section .img {
@@ -2080,7 +2083,7 @@ textarea.form-control {
       font-size: 14px;
       width: calc(100% - 110px);
       font-weight: 600;
-      color: #d5c455; }
+      color: #0092FF; }
       .ftco-about-section ul.about-info li span:first-child {
         font-weight: 600;
         color: #000000;
@@ -2107,7 +2110,7 @@ textarea.form-control {
 .section-counter .number {
   font-size: 40px;
   font-weight: 700;
-  color: #d5c455;
+  color: #0092FF;
   line-height: 1;
   display: inline-block;
   margin-bottom: 5px;
@@ -2134,7 +2137,7 @@ textarea.form-control {
   overflow: visible; }
 
 .progress-bar {
-  background: #d5c455;
+  background: #0092FF;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -2151,7 +2154,7 @@ textarea.form-control {
     width: 34px;
     height: 34px;
     content: '';
-    background: #d5c455;
+    background: #0092FF;
     border-radius: 2px;
     opacity: 0; }
   .progress-bar span {
@@ -2160,7 +2163,7 @@ textarea.form-control {
     right: 0;
     font-size: 16px;
     font-weight: 400;
-    color: #d5c455; }
+    color: #0092FF; }
 
 .resume-wrap {
   background: #fff;
@@ -2171,7 +2174,7 @@ textarea.form-control {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #d5c455;
+    background: #0092FF;
     position: relative;
     margin-top: -60px;
     margin-bottom: 20px; }
@@ -2187,7 +2190,7 @@ textarea.form-control {
   .resume-wrap span.date {
     font-weight: 12px;
     font-weight: 500;
-    color: #d5c455; }
+    color: #0092FF; }
   .resume-wrap h2, .resume-wrap .h2 {
     font-weight: 500;
     font-size: 24px; }
@@ -2196,7 +2199,7 @@ textarea.form-control {
     font-weight: 500;
     color: #b3b3b3; }
     .resume-wrap span.position i {
-      color: #d5c455; }
+      color: #0092FF; }
 
 .project {
   width: 100%;
@@ -2212,7 +2215,7 @@ textarea.form-control {
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #d5c455;
+    background: #0092FF;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -2291,7 +2294,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #000000; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #d5c455; }
+          color: #0092FF; }
   .blog-entry .meta {
     text-transform: uppercase;
     font-size: 13px;
@@ -2326,7 +2329,7 @@ textarea.form-control {
       border: 1px solid #e6e6e6;
       background: trasparent; }
     .block-27 ul li.active a, .block-27 ul li.active span, .block-27 ul li:hover a, .block-27 ul li:hover span {
-      background: #d5c455;
+      background: #0092FF;
       color: #fff;
       border: 1px solid transparent; }
 
@@ -2372,7 +2375,7 @@ textarea.form-control {
     width: 100%; }
 
 .contactForm .label {
-  color: #d5c455;
+  color: #0092FF;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600; }
@@ -2396,7 +2399,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #222222; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #d5c455; }
+        color: #0092FF; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -2417,7 +2420,7 @@ textarea.form-control {
   background: #fff; }
   .tagcloud a:hover {
     color: #222222;
-    background: #d5c455; }
+    background: #0092FF; }
 
 .comment-form-wrap {
   clear: both; }
@@ -2453,7 +2456,7 @@ textarea.form-control {
       /* Firefox 18- */
       color: rgba(0, 0, 0, 0.3) !important; }
     .comment-form-wrap .form-control:focus, .comment-form-wrap .form-control:active {
-      border-color: #d5c455 !important; }
+      border-color: #0092FF !important; }
   .comment-form-wrap textarea.form-control {
     height: inherit !important; }
 
@@ -2503,7 +2506,7 @@ textarea.form-control {
         letter-spacing: .1em;
         font-weight: 600;
         border-radius: 4px;
-        background: #d5c455; }
+        background: #0092FF; }
         .comment-list li .comment-body .reply:hover {
           color: #fff;
           background: black; }
@@ -2522,7 +2525,7 @@ textarea.form-control {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #d5c455; }
+  color: #0092FF; }
 
 .sidebar-box {
   margin-bottom: 30px;
