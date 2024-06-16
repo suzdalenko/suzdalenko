@@ -73,6 +73,6 @@ const handleLocation = async () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-window.onpopstate = handleLocation;
-window.route = route;
-handleLocation();
+// window.onpopstate = handleLocation;
+// window.route = route;
+// handleLocation();

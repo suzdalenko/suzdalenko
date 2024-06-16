@@ -1,3 +1,5 @@
+/*
+
 function blogFunctions(){
     let listBlogEntries = document.getElementById('listBlogEntries');
     let htmlContent = '';
@@ -18,6 +20,8 @@ function blogFunctions(){
 }
 
 
+
+*/
 /*
 
             <div class="col-md-6 col-lg-3 d-flex">
