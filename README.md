@@ -5,4 +5,4 @@
 ###### PHP - Laravel, Symfony
 ###### SQL
 ###### Java - Spring Boot
-###### Kotlin-Android [PhotoLapse - Auto Photo & Send](https://play.google.com/store/apps/details?id=suzdalenko.photolapse)
+###### Kotlin - Android [PhotoLapse - Auto Photo & Send](https://play.google.com/store/apps/details?id=suzdalenko.photolapse)
