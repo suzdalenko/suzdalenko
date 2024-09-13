@@ -1704,7 +1704,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5,
     .hero-wrap .slider-text h1, .hero-wrap .slider-text .h1 {
       font-weight: 700;
       color: #222222;
-      font-size: 80px;
+      font-size: 60px;
       line-height: 1.2; }
       @media (max-width: 767.98px) {
         .hero-wrap .slider-text h1, .hero-wrap .slider-text .h1 {
