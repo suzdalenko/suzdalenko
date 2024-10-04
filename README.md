@@ -7,3 +7,4 @@
 #### Java - Spring Boot
 #### Kotlin - Android [PhotoLapse - Auto Photo & Send](https://play.google.com/store/apps/details?id=suzdalenko.photolapse)
 #### Python - Django [Factura Simple Online](https://factura-simple-on.web.app)
+<img src="https://suzdalenko.github.io/suzdalenko/1.webp" alt="alexey suzdalenko desarrollo web - programador" />
