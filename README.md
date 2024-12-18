@@ -7,6 +7,6 @@
 #### Java - Spring Boot
 #### Kotlin - Android [PhotoLapse - Auto Photo & Send](https://play.google.com/store/apps/details?id=suzdalenko.photolapse)
 #### Python - Django [Factura Simple Online](https://factura-simple-on.web.app)
-<img src="https://suzdalenko.github.io/suzdalenko/1.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px" style="float:left; display:inline;" /><img src="https://suzdalenko.github.io/suzdalenko/2.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px;display:inline;" style="float:left;" /><img src="https://suzdalenko.github.io/suzdalenko/3.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px" style="float:left;display:inline;" /> 
-<img src="https://suzdalenko.github.io/suzdalenko/toyota.webp" alt="alexey suzdalenko desarrollo web - toyota" width="33px" style="float:left;display:inline;" />
-
+<img src="https://suzdalenko.github.io/suzdalenko/1.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px" style="float:left; display:inline;" /><img src="https://suzdalenko.github.io/suzdalenko/2.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px;display:inline;" style="float:left;" /><img src="https://suzdalenko.github.io/suzdalenko/3.webp" alt="alexey suzdalenko desarrollo web - programador" width="22px" style="float:left;display:inline;" />  mushrooms.webp
+<img src="https://suzdalenko.github.io/suzdalenko/toyota.webp" alt="toyota" width="33px" style="float:left;display:inline;" />
+<img src="https://suzdalenko.github.io/suzdalenko/mushrooms.webp" alt="mushrooms" width="33px" style="float:left;display:inline;" />
