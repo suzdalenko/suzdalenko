@@ -11,4 +11,4 @@
 <img src="https://suzdalenko.github.io/suzdalenko/toyota.webp" alt="toyota" width="33px" style="float:left;display:inline;" />
 <img src="https://suzdalenko.github.io/suzdalenko/mushrooms.webp" alt="mushrooms" width="33px" style="float:left;display:inline;" />
 
-"Печальный детектив", "Прокляты и убиты","Пастух и пастушка" и недавно "Царь-рыба"
+"Веселый солдат»", "Печальный детектив", "Прокляты и убиты","Пастух и пастушка" и недавно "Царь-рыба"
