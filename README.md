@@ -12,3 +12,5 @@
 <img src="https://suzdalenko.github.io/suzdalenko/mushrooms.webp" alt="mushrooms" width="33px" style="float:left;display:inline;" />
 
 "Веселый солдат»", "Печальный детектив", "Прокляты и убиты","Пастух и пастушка" и недавно "Царь-рыба"
+""Тихий Дон""
+Три пастуха" П.Зябкина, 
